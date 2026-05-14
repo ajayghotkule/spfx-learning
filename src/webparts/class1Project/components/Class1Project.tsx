@@ -7,6 +7,7 @@ import Clasa2UseState from './Class2UseState';
 import Class3UseCallback from './Class3UseCallback';
 import Class4MountUnmount from './Class4MountUnmount';
 import Class5ArrayOps from './Class5ArrayOps';
+import Class6UseRef from './Class6UseRef';
 
 
 // ─── FUNCTION-BASED COMPONENT ────────────────────────────────────────────────
@@ -23,6 +24,7 @@ const Class1Project: React.FC<IClass1ProjectProps> = (props) => {
       <Class3UseCallback />
       <Class4MountUnmount />
       <Class5ArrayOps />
+      <Class6UseRef />
     </div>
   );
 
