@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "class-1-project-client-side-solution",
+    "id": "6d5454af-21b4-4ee5-aa29-587702127dc0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "class1project description"
+      },
+      "longDescription": {
+        "default": "class1project description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "class-1-project Feature",
+        "description": "The feature that activates elements of the class-1-project solution.",
+        "id": "b63f35c6-2a70-47da-81d9-5fa99e666ef0",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/class-1-project.sppkg"
+  }
+}
